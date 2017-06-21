@@ -25,7 +25,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(value = "/")
+@WebServlet(value = "/debug")
 public class DebugServlet extends HttpServlet {
   
   @Override
